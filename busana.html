@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UMKM Bertuah</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-text">
+            <h1>UMKM Bertuah</h1>
+            <h3>Selamat Datang di Website UMKM Bertuah</h3>
+        </div>
+        <div class="header-input">
+            <input id="search-input" type="text" placeholder="Mau cari apa?">
+        </div>
+        <div class="header-image">
+            <img src="assets/images/chartanjak.png" alt="Header Image">
+        </div>
+    </header>
+    
+    
+    <nav>
+        <a href="landing_page.html">Beranda</a>
+        <a href="aboutus.html">Tentang Kami</a>
+    </nav>
+    
+
+    <main>
+        <div class="busana-header">
+            <h1>STYLISH EVERYDAY</h1>
+        </div>
+
+        <div class="busana-container">
+            <div class="busana-item">
+                <img src="assets/images/fashion.png" alt="L. Seoul Shop">
+                <h3>L. Seoul Shop</h3>
+                <a href="#">Lihat selengkapnya</a>
+            </div>
+            <div class="busana-item">
+                <img src="assets/images/baju.png" alt=" ">
+                <h3>Anugrah Fashion</h3>
+                <a href="#">Lihat selengkapnya</a>
+            </div>
+            <div class="busana-item">
+                <img src="assets/images/kohdaud.jpg" alt="">
+                <h3>Toko Koh Daud</h3>
+                <a href="#">Lihat selengkapnya</a>
+            </div>
+            <div class="busana-item">
+                <img src="assets/images/hijabhouse.png" alt=" ">
+                <h3>Hijabi House</h3>
+                <a href="#">Lihat selengkapnya</a>
+            </div>
+            <div class="busana-item">
+                <img src="assets/images/image_156.png" alt=" ">
+                <h3>Abigail Shoes Shop</h3>
+                <a href="#">Lihat selengkapnya</a>
+            </div>
+            <div class="busana-item">
+                <img src="assets/images/sarung.png" alt=" ">
+                <h3>Rumah Sarung</h3>
+                <a href="#">Lihat selengkapnya</a>
+            </div>
+            <div class="busana-item">
+                <img src="assets/images/cap.jpg" alt=" ">
+                <h3>Hat Camp</h3>
+                <a href="#">Lihat selengkapnya</a>
+            </div>
+            <div class="busana-item">
+                <img src="assets/images/bag.jpg" alt="">
+                <h3>Planet Tas</h3>
+                <a href="#">Lihat selengkapnya</a>
+            </div>
+        </div>
+         <!-- Kontainer untuk hasil pencarian -->
+         <div id="results-container"></div>
+    </main>
+    
+   <!-- Popup container -->
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <span class="close-btn">&times;</span>
+        <div class="popup-image-container">
+            <img id="popup-img" src="" alt="UMKM Image">
+        </div>
+        <div class="popup-info-container">
+            <h2 id="popup-title">UMKM Title</h2>
+            <p id="popup-description">Description</p>
+            <div class="popup-details">
+                <p><strong>Harga:</strong> <span id="popup-price">Rp. 0,-</span></p>
+                <p><strong>Buka-Tutup:</strong> <span id="popup-hours">08.00 - 12.00 WIB</span></p>
+                <p><strong>Lokasi:</strong> <span id="popup-location">Address</span></p>
+                <p><strong>No. HP:</strong> <span id="popup-phone">+62 000 0000 0000</span></p>
+            </div>
+        </div>
+    </div>
+</div>
+    
+
+<script src="script.js"></script>
+
+</body>
+</html>

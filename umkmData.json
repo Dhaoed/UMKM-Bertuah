@@ -1,0 +1,48 @@
+[
+    {
+        "imageSrc": "assets/images/image_39.jpeg",
+        "title": "Kak Hana Cooking",
+        "description": "Deskripsi Kak Hana Cooking",
+        "price": "Rp. 20.000 - Rp. 50.000",
+        "hours": "10.00 - 20.00 WIB",
+        "location": "Jl. Malioboro No. 12, Yogyakarta",
+        "phone": "+62 812 3456 7890"
+    },
+    {
+        "imageSrc": "assets/images/image_40.jpeg",
+        "title": "Seafood Gonggong H.Adam",
+        "description": "Deskripsi Seafood Gonggong H.Adam",
+        "price": "Rp. 30.000 - Rp. 80.000",
+        "hours": "11.00 - 22.00 WIB",
+        "location": "Jl. Pantai Indah No. 5, Bali",
+        "phone": "+62 856 7890 1234"
+    },
+    {
+        "imageSrc": "assets/images/image_351.jpeg",
+        "title": "Warung Makan Bu Saiton",
+        "description": "Deskripsi Warung Makan Bu Saiton",
+        "price": "Rp. 30.000 - Rp. 80.000",
+        "hours": "11.00 - 22.00 WIB",
+        "location": "Jl. Pantai Indah No. 5, Bali",
+        "phone": "+62 856 7890 1234"
+    },
+    {
+        "imageSrc": "assets/images/image_341.png",
+        "title": "Kedai Makan Terserah",
+        "description": "Deskripsi Kedai Makan Terserah",
+        "price": "Rp. 30.000 - Rp. 80.000",
+        "hours": "11.00 - 22.00 WIB",
+        "location": "Jl. Pantai Indah No. 5, Bali",
+        "phone": "+62 856 7890 1234"
+    },
+    {
+        "imageSrc": "assets/images/image_361.jpeg",
+        "title": "Warung Otak-Otak",
+        "description": "Deskripsi Warung Otak-Otak",
+        "price": "Mulai dari Rp. 2.000",
+        "hours": "11.00 - 22.00 WIB",
+        "location": "Jl. Pantai Indah No. 5, Bali",
+        "phone": "+62 856 7890 1234"
+    }
+    
+]

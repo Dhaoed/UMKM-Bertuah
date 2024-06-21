@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UMKM Bertuah</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-text">
+            <h1>UMKM Bertuah</h1>
+            <h3>Selamat Datang di Website UMKM Bertuah</h3>
+        </div>
+        <div class="header-input">
+            <input id="search-input" type="text" placeholder="Mau cari apa?">
+        </div>
+        <div class="header-image">
+            <img src="assets/images/chartanjak.png" alt="Header Image">
+        </div>
+    </header>
+    
+    
+    <nav>
+        <a href="landing_page.html">Beranda</a>
+        <a href="aboutus.html">Tentang Kami</a>
+    </nav>
+    
+
+    <main>
+        <div class="kecantikan-header">
+            <h1>ELEGAN MEMPESONA</h1>
+        </div>
+
+        <div class="kecantikan-container">
+            <div class="kecantikan-item">
+                <img src="assets/images/cantik1.jpeg" alt=" ">
+                <h3>Bianca Cosmetic</h3>
+                <a href="#">Lihat selengkapnya</a>
+            </div>
+            <div class="kecantikan-item">
+                <img src="assets/images/image_72.jpeg" alt=" ">
+                <h3>Jelita Estetika</h3>
+                <a href="#">Lihat selengkapnya</a>
+            </div>
+            <div class="kecantikan-item">
+                <img src="assets/images/cantik2.png" alt="">
+                <h3>Toko Koh Daud</h3>
+                <a href="#">Lihat selengkapnya</a>
+            </div>
+            <div class="kecantikan-item">
+                <img src="assets/images/cantik3.png" alt=" ">
+                <h3>Angel Accessories</h3>
+                <a href="#">Lihat selengkapnya</a>
+            </div>
+            <div class="kecantikan-item">
+                <img src="assets/images/cantik4.png" alt=" ">
+                <h3>Dyra Beauty Lounge</h3>
+                <a href="#">Lihat selengkapnya</a>
+            </div>
+            <div class="kecantikan-item">
+                <img src="assets/images/cantik5.png" alt=" ">
+                <h3>Kharisma Kosmetika</h3>
+                <a href="#">Lihat selengkapnya</a>
+            </div>
+            <div class="kecantikan-item">
+                <img src="assets/images/cantik6.png" alt=" ">
+                <h3>Aura Beauty</h3>
+                <a href="#">Lihat selengkapnya</a>
+            </div>
+            <div class="kecantikan-item">
+                <img src="assets/images/cantik7.png" alt="">
+                <h3>Lashlift Maman</h3>
+                <a href="#">Lihat selengkapnya</a>
+            </div>
+        </div>
+         <!-- Kontainer untuk hasil pencarian -->
+         <div id="results-container"></div>
+    </main>
+    
+   <!-- Popup container -->
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <span class="close-btn">&times;</span>
+        <div class="popup-image-container">
+            <img id="popup-img" src="" alt="UMKM Image">
+        </div>
+        <div class="popup-info-container">
+            <h2 id="popup-title">UMKM Title</h2>
+            <p id="popup-description">Description</p>
+            <div class="popup-details">
+                <p><strong>Harga:</strong> <span id="popup-price">Rp. 0,-</span></p>
+                <p><strong>Buka-Tutup:</strong> <span id="popup-hours">08.00 - 12.00 WIB</span></p>
+                <p><strong>Lokasi:</strong> <span id="popup-location">Address</span></p>
+                <p><strong>No. HP:</strong> <span id="popup-phone">+62 000 0000 0000</span></p>
+            </div>
+        </div>
+    </div>
+</div>
+    
+
+<script src="script.js"></script>
+
+</body>
+</html>
